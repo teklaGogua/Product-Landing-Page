@@ -1,9 +1,9 @@
-html{
+  html{
     background-color: rgba(240, 255, 253 .7);
     text-align: auto;
   }
   
-nav{
+  nav{
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -13,42 +13,42 @@ nav{
     background-color: thistle;
     border-bottom: 6px double rgba(180, 73, 153, 0.925);
     font-size: 30px;
-}
+  }
   
-#header-img{
+  #header-img{
     max-height: 60px;
     float: left;
-}
+  }
   
-a {
+  a {
     text-decoration: none;
     color: black;
     padding: 10px;
-}
+  }
   
-nav a:hover {
+  nav a:hover {
     background-color: rgb(228, 30, 195);
-}
+  }
   
-header{
+  header{
     text-align: center;
-}
+  }
   
-header h1{
+  header h1{
     color:antiquewhite;
     font-size: 300%;
     padding-top: 30px;;
-}
+  }
   
-header h3{
+  header h3{
     color: aliceblue;
-}
+  }
   
-header h1:hover, h3:hover{
+  header h1:hover, h3:hover{
     color:blueviolet;
-}
+  }
   
-body{
+  body{
     background-image: url(https://georgiatoday.ge/wp-content/uploads/2021/03/georgian-craft-association.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -56,51 +56,51 @@ body{
     padding: 1% 15% 1% 15%;
   }
   
-#main{
+  main{
     background-color: ivory;
     background-size: 80%;
     padding:5px 5px 5px 20px;
     border: 6px double rgba(180, 73, 153, 0.925);
     border-radius: 5%;
     min-width: 150px;
-}
+  }
   
-#main img{
+  main img{
     width: 80%;
     height: auto;
     max-height: 400px;
     padding-left: 5%;
-}
+  }
   
-.WOODWORK{
+  .WOODWORK{
     width: 100%;
     display: inline-block;
     vertical-align: top;
-}
+  }
   
-.METALWORK{
+  .METALWORK{
     width: 50%;
     display: inline-block;
     vertical-align: top;
     padding-right: 5%;
-}
+  }
   
-.CERAMICS{
+  .CERAMICS{
     width: 35%;
     display: inline-block;
     vertical-align: top;
-}
+  }
   
-#video{
+  #video{
     width: 100%;
     height: 300px;
     border-radius: 10px;
     border: 2px solid purple;
     margin-left: -10px;
     margin-top: 15px;
-}
+  }
   
-footer {
+  footer {
     font-size: 20px;
     margin: 10px;
     padding: 30px;
@@ -109,22 +109,22 @@ footer {
     background: white;
     box-shadow: 0 0px 15px rgb(180, 50, 130);
     text-align: center;
-}
+  }
   
-footer p{
+  footer p{
     font-weight: bold;
     color: #6A0080;
-}
+  }
   
-#email{
+  #email{
     height: 30px;
     text-align: center;
     border-color: purple;
     color: purple;
     margin-bottom: 5px;
-}
+  }
   
-#submit{
+  #submit{
     cursor: pointer;
     border: 0;
     background: rgba(180, 50, 130, 0.925);
@@ -135,15 +135,15 @@ footer p{
     margin: 0;
     outline: 0;
     transition: all .1s linear;
-}
+  }
   
-#submit:active {
+  #submit:active {
     box-shadow: 0 2px 0 rgba(150, 50, 120, 1);
     transform: translateY(3px);
-}
+  }
   
   
-@media(max-width: 500px){
+  @media(max-width: 500px){
     .METALWORK{
       width: 100%;
     }
@@ -151,9 +151,9 @@ footer p{
     .CERAMICS{
       width: 100%;
     }
-}
+  }
   
-@media(max-width: 410px){
+  @media(max-width: 410px){
     nav{
       font-size: 20px;
     }
@@ -165,9 +165,9 @@ footer p{
     #email{
       width: 95%;
     }
-}
+  }
   
-@media(max-width: 310px){
+  @media(max-width: 310px){
     nav{
       font-size: 17px;
     }
@@ -179,4 +179,4 @@ footer p{
     #submit{
       width: 99%;
     }
-}
+  }
